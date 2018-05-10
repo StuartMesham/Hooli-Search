@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="10.0" minWidth="10.0" prefHeight="40.0" prefWidth="Infinity" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="label1" layoutX="14.0" layoutY="14.0" text="Label" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="7.0" />
+      <Hyperlink fx:id="link" layoutX="14.0" layoutY="38.0" onMouseClicked="#handleLinkClicked" text="Hyperlink" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>
